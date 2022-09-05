@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ca | tail
+ls -ca > file | tail
