@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ca > file | tail
+ls -ca | sort | tail
