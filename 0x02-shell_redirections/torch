@@ -1,5 +1,0 @@
-#!/bin/bash
-read f
-echo "#!/bin/bash" > $f
-chmod 777 $f
-vi $f
