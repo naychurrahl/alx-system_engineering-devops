@@ -1,0 +1,28 @@
+#!/bin/bash
+1. echo "Hello, World"
+2. echo "\"(Ôo)'"
+3. cat /etc/passwd
+4. cat /etc/passwd /etc/hosts
+5. tail -10 /etc/passwd
+6. head /etc/passwd
+7. head -n 3 iacta | tail -n 1
+8. echo "Holberton School" > '\*\\'\''"Holberton School"\'\''\\*$\?\*\*\*\*\*:)'
+9. ls -la > ls_cwd_content
+10. tail -1 iacta >> iacta
+11. find -name "*.js" -type f -delete
+12. find -mindepth 1 -type d | wc -l
+13. ls -t | head -10
+14. sort | uniq -u
+15. grep root /etc/passwd
+16. grep -c bin /etc/passwd
+17. grep root /etc/passwd --after-context=3
+18. grep -v bin /etc/passwd
+19. grep '^[[:alpha:]]' /etc/ssh/sshd_config
+20. tr A Z | tr c e
+21. tr -d C | tr -d c
+22. rev
+23. cut -d : -f 1,6 /etc/passwd | sort
+24. find . -empty -printf "%f\n"
+25. find . -name "*.gif" -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f
+26. echo $(cut -c1 | tr -d " \n")
+27. tail -n +2 | sort | cut -f1 | uniq -c | sort -g -r | head -11 | tr -s " " | cut -d" " -f3

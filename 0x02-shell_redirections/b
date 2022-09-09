@@ -1,0 +1,4 @@
+#!/bin/bash
+read n
+cp template $n
+vi $n
